@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Counter from './reducer/useReducerTest'
 
 
 const App: React.FC = ()=>{
   return(<div>
-    <h1>야호</h1>
+    <Counter />
   </div>)
 }
 
