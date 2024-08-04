@@ -1,11 +1,12 @@
-import React from 'react'
-import Counter from './reducer/useReducerTest'
+import React from 'react';
+import BuffSystem from './useMemo';
 
+const App: React.FC = () => {
+  return (
+    <div>
+      <BuffSystem />
+    </div>
+  );
+};
 
-const App: React.FC = ()=>{
-  return(<div>
-    <Counter />
-  </div>)
-}
-
-export default App
+export default App;
